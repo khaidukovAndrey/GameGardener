@@ -1,0 +1,384 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1667389599540488, "dur": 592625, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1667389599540747, "dur": 2065, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1667389599542815, "dur": 56332, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1667389599599187, "dur": 252493, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1667389599851682, "dur": 279891, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1667389600131574, "dur": 1538, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1667389600133607, "dur": 11, "ph": "X", "name": "", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1667389599574593, "dur":994, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667389599575599, "dur":134, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1667389599575766, "dur":21, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1667389599575788, "dur":214, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1667389599576033, "dur":489, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667389599576522, "dur":14, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667389599578740, "dur":40, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667389599578780, "dur":19, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667389599578799, "dur":23, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667389599578823, "dur":12, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667389599578835, "dur":17, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667389599578852, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667389599578859, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667389599578861, "dur":16, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667389599578877, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667389599578877, "dur":1, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667389599578895, "dur":1301, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1667389599577422, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667389599577423, "dur":1318, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667389599576975, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667389599576976, "dur":1748, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667389599577104, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667389599577105, "dur":1622, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667389599577242, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667389599577243, "dur":1484, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667389599581277, "dur":167, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1667389600133660, "dur": 25372, "ph": "X", "name": "backend_profiler0.traceevents", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1667389599714233, "dur": 122103, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1667389599715305, "dur": 51453, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1667389599818831, "dur": 5378, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1667389599824213, "dur": 12116, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1667389599824996, "dur": 10824, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1667389599841396, "dur": 1422, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1667389599840388, "dur": 2455, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1667389600159108, "dur": 25231, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1667389599891569, "dur":77658, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667389599969239, "dur":471, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1667389599969724, "dur":22, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1667389599969748, "dur":206, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1667389599969973, "dur":441, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667389599970414, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667389600098380, "dur":61, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667389600098442, "dur":21, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667389600098463, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667389600098466, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667389600098474, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667389600098476, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667389600098483, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667389600098485, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667389600098492, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667389600098503, "dur":1, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667389600098549, "dur":1096, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1667389599970734, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667389599970735, "dur":1752, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667389599972496, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1667389599972497, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667389599972517, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GantoProject_FarmingGame_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1667389599972519, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667389599972529, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1667389599972539, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667389599972549, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1667389599972562, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667389599972586, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1667389599972651, "dur":18, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667389599972670, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1667389599972716, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667389599972728, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1667389599972745, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667389599972754, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1667389599972764, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667389599972772, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1667389599972783, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667389599972792, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":1, "ts":1667389599972831, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667389599972909, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GantoProject_FarmingGame.exe" }}
+,{ "pid":12345, "tid":1, "ts":1667389599972924, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667389599972931, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GantoProject_FarmingGame_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":1, "ts":1667389599972941, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667389599972951, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GantoProject_FarmingGame_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667389599972961, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667389599972971, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GantoProject_FarmingGame_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667389599972982, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667389599972991, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GantoProject_FarmingGame_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667389599973001, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667389599973017, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GantoProject_FarmingGame_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667389599973029, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667389599973039, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GantoProject_FarmingGame_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667389599973049, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667389599973057, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GantoProject_FarmingGame_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667389599973066, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667389599973074, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GantoProject_FarmingGame_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667389599973084, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667389599973093, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GantoProject_FarmingGame_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667389599973102, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667389599973110, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GantoProject_FarmingGame_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667389599973119, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667389599973129, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GantoProject_FarmingGame_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667389599973139, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667389599973149, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GantoProject_FarmingGame_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667389599973158, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667389599973168, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GantoProject_FarmingGame_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667389599973177, "dur":6, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667389599973184, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GantoProject_FarmingGame_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667389599973227, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667389599973238, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GantoProject_FarmingGame_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667389599973250, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667389599973262, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GantoProject_FarmingGame_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667389599973273, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667389599973281, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GantoProject_FarmingGame_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667389599973289, "dur":32, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667389599973321, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GantoProject_FarmingGame_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667389599973331, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667389599973339, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GantoProject_FarmingGame_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667389599973350, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667389599973359, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GantoProject_FarmingGame_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667389599973368, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667389599973376, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GantoProject_FarmingGame_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667389599973384, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667389599973392, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GantoProject_FarmingGame_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667389599973403, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667389599973412, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GantoProject_FarmingGame_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667389599973420, "dur":105, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667389599973526, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GantoProject_FarmingGame_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667389599973552, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667389599973564, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GantoProject_FarmingGame_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667389599973573, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667389599973582, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GantoProject_FarmingGame_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667389599973590, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667389599973598, "dur":664, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GantoProject_FarmingGame_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667389599974262, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667389599974277, "dur":228, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GantoProject_FarmingGame_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667389599974505, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667389599974520, "dur":149, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GantoProject_FarmingGame_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667389599974670, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667389599974687, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GantoProject_FarmingGame_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667389599974697, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667389599974713, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GantoProject_FarmingGame_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667389599974726, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667389599974734, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GantoProject_FarmingGame_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667389599974743, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667389599974751, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GantoProject_FarmingGame_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667389599974769, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667389599974780, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GantoProject_FarmingGame_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667389599974789, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667389599974797, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GantoProject_FarmingGame_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667389599974806, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667389599974816, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GantoProject_FarmingGame_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667389599974825, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667389599974833, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GantoProject_FarmingGame_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667389599974842, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667389599974851, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GantoProject_FarmingGame_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667389599974860, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667389599974868, "dur":210, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GantoProject_FarmingGame_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667389599975078, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667389599975089, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GantoProject_FarmingGame_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1667389599975101, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667389599975575, "dur":45840, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GantoProject_FarmingGame_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1667389600021426, "dur":6285, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GantoProject_FarmingGame_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1667389600027711, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667389600027732, "dur":70642, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667389599970846, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667389599970847, "dur":2003, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667389599972850, "dur":793, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":2, "ts":1667389599973643, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667389599973651, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GantoProject_FarmingGame_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667389599973660, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667389599973668, "dur":707, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GantoProject_FarmingGame_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667389599974375, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667389599974392, "dur":219, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GantoProject_FarmingGame_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667389599974611, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667389599974625, "dur":156, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GantoProject_FarmingGame_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667389599974782, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667389599974795, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GantoProject_FarmingGame_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667389599974805, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667389599974815, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GantoProject_FarmingGame_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667389599974824, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667389599974832, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GantoProject_FarmingGame_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667389599974841, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667389599974850, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GantoProject_FarmingGame_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667389599974859, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667389599974867, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GantoProject_FarmingGame_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667389599974876, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667389599974883, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GantoProject_FarmingGame_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":2, "ts":1667389599974979, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667389599974992, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GantoProject_FarmingGame_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":2, "ts":1667389599975015, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667389599975232, "dur":8454, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GantoProject_FarmingGame_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":2, "ts":1667389599983697, "dur":13839, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GantoProject_FarmingGame_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":2, "ts":1667389599997536, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667389599997557, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GantoProject_FarmingGame_Data/level0" }}
+,{ "pid":12345, "tid":2, "ts":1667389599997573, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667389599997576, "dur":639, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GantoProject_FarmingGame_Data/level0" }}
+,{ "pid":12345, "tid":2, "ts":1667389599998224, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GantoProject_FarmingGame_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":2, "ts":1667389599998243, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667389599998246, "dur":27594, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GantoProject_FarmingGame_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":2, "ts":1667389600025850, "dur":72527, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667389599970886, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667389599970886, "dur":1606, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667389599972497, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1667389599972521, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667389599972533, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1667389599972546, "dur":34, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667389599972580, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1667389599972665, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667389599972692, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1667389599972717, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667389599972727, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1667389599972739, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667389599972748, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1667389599972762, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667389599972770, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1667389599972782, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667389599972790, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":3, "ts":1667389599972805, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667389599972813, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667389599972826, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667389599972835, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles UnityPlayer.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667389599972916, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667389599972939, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GantoProject_FarmingGame_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667389599972952, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667389599972962, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GantoProject_FarmingGame_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667389599972974, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667389599972984, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GantoProject_FarmingGame_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667389599972995, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667389599973004, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GantoProject_FarmingGame_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667389599973018, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667389599973030, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GantoProject_FarmingGame_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667389599973040, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667389599973049, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GantoProject_FarmingGame_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667389599973061, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667389599973071, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GantoProject_FarmingGame_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667389599973079, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667389599973087, "dur":282, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GantoProject_FarmingGame_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667389599973369, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667389599973384, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GantoProject_FarmingGame_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667389599973397, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667389599973408, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GantoProject_FarmingGame_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667389599973417, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667389599973425, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GantoProject_FarmingGame_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667389599973440, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667389599973447, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GantoProject_FarmingGame_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667389599973521, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667389599973532, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GantoProject_FarmingGame_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667389599973544, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667389599973552, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GantoProject_FarmingGame_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667389599973561, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667389599973569, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GantoProject_FarmingGame_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667389599973578, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667389599973587, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GantoProject_FarmingGame_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667389599973595, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667389599973604, "dur":470, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GantoProject_FarmingGame_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667389599974074, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667389599974088, "dur":127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GantoProject_FarmingGame_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667389599974216, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667389599974229, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GantoProject_FarmingGame_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667389599974345, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667389599974359, "dur":176, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GantoProject_FarmingGame_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667389599974535, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667389599974548, "dur":177, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GantoProject_FarmingGame_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667389599974726, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667389599974738, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GantoProject_FarmingGame_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667389599974748, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667389599974756, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GantoProject_FarmingGame_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667389599974764, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667389599974772, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GantoProject_FarmingGame_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667389599974781, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667389599974789, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GantoProject_FarmingGame_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667389599974801, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667389599974811, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GantoProject_FarmingGame_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667389599974820, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667389599974828, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GantoProject_FarmingGame_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667389599974836, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667389599974844, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GantoProject_FarmingGame_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667389599974853, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667389599974861, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GantoProject_FarmingGame_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667389599974870, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667389599974878, "dur":217, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GantoProject_FarmingGame_Data/Managed/Assembly-CSharp-firstpass.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667389599975095, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667389599975109, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GantoProject_FarmingGame_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1667389599975122, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667389599975747, "dur":17548, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GantoProject_FarmingGame_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1667389599993317, "dur":5583, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GantoProject_FarmingGame_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1667389599998900, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667389599998918, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GantoProject_FarmingGame_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":3, "ts":1667389599998934, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667389599998937, "dur":89492, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GantoProject_FarmingGame_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":3, "ts":1667389600088439, "dur":9923, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667389599970948, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667389599970948, "dur":1544, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667389599972497, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1667389599972534, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667389599972548, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1667389599972570, "dur":253, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667389599972824, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667389599972841, "dur":99, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667389599972941, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GantoProject_FarmingGame_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667389599972974, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667389599972989, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GantoProject_FarmingGame_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667389599972998, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667389599973006, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GantoProject_FarmingGame_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667389599973015, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667389599973025, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GantoProject_FarmingGame_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667389599973035, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667389599973044, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GantoProject_FarmingGame_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667389599973054, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667389599973063, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GantoProject_FarmingGame_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667389599973072, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667389599973080, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GantoProject_FarmingGame_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667389599973089, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667389599973098, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GantoProject_FarmingGame_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667389599973109, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667389599973117, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GantoProject_FarmingGame_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667389599973129, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667389599973139, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GantoProject_FarmingGame_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667389599973148, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667389599973157, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GantoProject_FarmingGame_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667389599973166, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667389599973175, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GantoProject_FarmingGame_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667389599973204, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667389599973214, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GantoProject_FarmingGame_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667389599973223, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667389599973230, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GantoProject_FarmingGame_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667389599973240, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667389599973248, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GantoProject_FarmingGame_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667389599973258, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667389599973267, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GantoProject_FarmingGame_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667389599973276, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667389599973284, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GantoProject_FarmingGame_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667389599973293, "dur":32, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667389599973326, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GantoProject_FarmingGame_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667389599973338, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667389599973346, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GantoProject_FarmingGame_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667389599973355, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667389599973364, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GantoProject_FarmingGame_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667389599973373, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667389599973382, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GantoProject_FarmingGame_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667389599973391, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667389599973399, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GantoProject_FarmingGame_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667389599973408, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667389599973416, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GantoProject_FarmingGame_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667389599973425, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667389599973433, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GantoProject_FarmingGame_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667389599973442, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667389599973450, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GantoProject_FarmingGame_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667389599973527, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667389599973542, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GantoProject_FarmingGame_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667389599973563, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667389599973572, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GantoProject_FarmingGame_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667389599973580, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667389599973588, "dur":150, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GantoProject_FarmingGame_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667389599973738, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667389599973752, "dur":346, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GantoProject_FarmingGame_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667389599974098, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667389599974111, "dur":159, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GantoProject_FarmingGame_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667389599974270, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667389599974284, "dur":209, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GantoProject_FarmingGame_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667389599974493, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667389599974507, "dur":152, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GantoProject_FarmingGame_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667389599974660, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667389599974673, "dur":312, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GantoProject_FarmingGame_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667389599974985, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667389599975000, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GantoProject_FarmingGame_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":4, "ts":1667389599975016, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667389599975395, "dur":122945, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GantoProject_FarmingGame_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":4, "ts":1667389600098351, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":4, "ts":1667389600098353, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667389600100633, "dur":1045, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1667389600184399, "dur": 34437, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1667389600133597, "dur": 85271, "ph": "X", "name": "Write chrome-trace events", "args": {} },

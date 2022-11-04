@@ -1,0 +1,1107 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.10f1 (1c7d0df0160b) revision 1867021'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19043) 64bit Professional' Language: 'ru' Physical Memory: 16336 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\Unity\2021.3.10f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/Unity/GantoProject_FarmingGame
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+53660
+Successfully changed project path to: D:/Unity/GantoProject_FarmingGame
+D:/Unity/GantoProject_FarmingGame
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 106.25 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.10f1 (1c7d0df0160b)
+[Subsystems] Discovering subsystems at path D:/Unity/2021.3.10f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Unity/GantoProject_FarmingGame/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1050 Ti (ID=0x1c82)
+    Vendor:   NVIDIA
+    VRAM:     4018 MB
+    Driver:   30.0.15.1215
+Initialize mono
+Mono path[0] = 'D:/Unity/2021.3.10f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity/2021.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Unity/2021.3.10f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56828
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity/2021.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003342 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 111.80 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.766 seconds
+Domain Reload Profiling:
+	ReloadAssembly (767ms)
+		BeginReloadAssembly (91ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (560ms)
+			LoadAssemblies (90ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (121ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (348ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (112ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (159ms)
+				ProcessInitializeOnLoadMethodAttributes (66ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.007140 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity\GantoProject_FarmingGame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity\GantoProject_FarmingGame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.00 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.276 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1277ms)
+		BeginReloadAssembly (143ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (21ms)
+		EndReloadAssembly (984ms)
+			LoadAssemblies (119ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (346ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (69ms)
+			SetupLoadedEditorAssemblies (424ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (107ms)
+				ProcessInitializeOnLoadAttributes (274ms)
+				ProcessInitializeOnLoadMethodAttributes (31ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.67 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3510 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 29 unused Assets / (471.3 KB). Loaded Objects now: 3993.
+Memory consumption went from 149.9 MB to 149.5 MB.
+Total: 4.085600 ms (FindLiveObjects: 0.464900 ms CreateObjectMapping: 0.676800 ms MarkObjects: 2.614000 ms  DeleteObjects: 0.328500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 36143.108192 seconds.
+  path: Assets/Alstra Infinite/Tool Set - PolyPack/Scene
+  artifactKey: Guid(fffa351488bdd584ab24be80cae744f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alstra Infinite/Tool Set - PolyPack/Scene using Guid(fffa351488bdd584ab24be80cae744f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a76b21555819c7168fc29bb36197641d') in 0.026173 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.350283 seconds.
+  path: Assets/Alstra Infinite/Tool Set - PolyPack/Texture
+  artifactKey: Guid(a98d38db2e0120c41a3434227b41be08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alstra Infinite/Tool Set - PolyPack/Texture using Guid(a98d38db2e0120c41a3434227b41be08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72aad561511fc5dd131077b923fb0be1') in 0.006273 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.377366 seconds.
+  path: Assets/Alstra Infinite/Tool Set - PolyPack/Materials
+  artifactKey: Guid(5dcf1f32029ed36438b80e30fcf028a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alstra Infinite/Tool Set - PolyPack/Materials using Guid(5dcf1f32029ed36438b80e30fcf028a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db9ebcef533ecd64c4893d9c988352d1') in 0.005400 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.044224 seconds.
+  path: Assets/Alstra Infinite/Tool Set - PolyPack/Materials/MetalV2.mat
+  artifactKey: Guid(bec39a1b7e10f5f49ad8e94069500dfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alstra Infinite/Tool Set - PolyPack/Materials/MetalV2.mat using Guid(bec39a1b7e10f5f49ad8e94069500dfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e4cc4f5f0f8cee08606cd972e2abe24') in 0.187268 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006047 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity\GantoProject_FarmingGame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity\GantoProject_FarmingGame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.77 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.413 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1414ms)
+		BeginReloadAssembly (153ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (38ms)
+		EndReloadAssembly (1147ms)
+			LoadAssemblies (101ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (355ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (76ms)
+			SetupLoadedEditorAssemblies (523ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (20ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (100ms)
+				ProcessInitializeOnLoadAttributes (345ms)
+				ProcessInitializeOnLoadMethodAttributes (49ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (16ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.14 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3486 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (439.6 KB). Loaded Objects now: 4037.
+Memory consumption went from 152.5 MB to 152.1 MB.
+Total: 10.886800 ms (FindLiveObjects: 0.260900 ms CreateObjectMapping: 0.283900 ms MarkObjects: 9.587700 ms  DeleteObjects: 0.753400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 748.602507 seconds.
+  path: Assets/GardenTools/Hoe/Hoe.fbx
+  artifactKey: Guid(9c8bf62167f15304cab63c2bb582915d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GardenTools/Hoe/Hoe.fbx using Guid(9c8bf62167f15304cab63c2bb582915d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b16b93fae3e94a65f8626154ecfbf33') in 0.428484 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/GardenTools/Hoe/HoeLever.png
+  artifactKey: Guid(09d5fab6744fcd84f966180d77ba216d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GardenTools/Hoe/HoeLever.png using Guid(09d5fab6744fcd84f966180d77ba216d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cab174281c230233f62988af6a5878b') in 0.024855 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/GardenTools/Hoe/HoePrefab.prefab
+  artifactKey: Guid(adf79a2ca6c162e45854a3b5bf76a8f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GardenTools/Hoe/HoePrefab.prefab using Guid(adf79a2ca6c162e45854a3b5bf76a8f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dc1e10d4d7961b6911f10241cffe14a') in 0.045164 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/GardenTools/Hoe/HoeNM.png
+  artifactKey: Guid(a8f1a699033141e4eb84a97ba3d10052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GardenTools/Hoe/HoeNM.png using Guid(a8f1a699033141e4eb84a97ba3d10052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '752120994ba1da554f3a57416fef1681') in 0.021978 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/GardenTools/Hoe/Hoe.png
+  artifactKey: Guid(059062350b631284597bebf4788736c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GardenTools/Hoe/Hoe.png using Guid(059062350b631284597bebf4788736c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffd93db21b5e6b4d617e9b4faccc636a') in 0.018038 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/GardenTools/Hoe/HoeLeverNM.png
+  artifactKey: Guid(53d4cdf144adef649afbaef0e1577c7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GardenTools/Hoe/HoeLeverNM.png using Guid(53d4cdf144adef649afbaef0e1577c7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05c30e7bbeb761a6e64767119029e87b') in 0.017526 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.639914 seconds.
+  path: Assets/GardenTools/Saw/Saw.fbx
+  artifactKey: Guid(44da1592342e17e43800ad56fff9e23e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GardenTools/Saw/Saw.fbx using Guid(44da1592342e17e43800ad56fff9e23e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34c6f51febeb6ae5e012cd56d13f4cb9') in 0.279931 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/GardenTools/Saw/SawMetalic.psd
+  artifactKey: Guid(7073f481af51f6345acda35a5d195726) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GardenTools/Saw/SawMetalic.psd using Guid(7073f481af51f6345acda35a5d195726) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12462a44b74eb8d890215f68e8d69eb8') in 0.017549 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/GardenTools/Saw/SawPrefab.prefab
+  artifactKey: Guid(2665f6639cbbe574a98407b39b728ec9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GardenTools/Saw/SawPrefab.prefab using Guid(2665f6639cbbe574a98407b39b728ec9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49675f3ba1123af9c065c3a9d1992a46') in 0.016679 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/GardenTools/Saw/Saw.png
+  artifactKey: Guid(1fa4dc0fa187227419a2d7aab388208b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GardenTools/Saw/Saw.png using Guid(1fa4dc0fa187227419a2d7aab388208b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9ae758e011ba29a9a45aca00f5ff705') in 0.014927 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/GardenTools/Saw/SawNM.png
+  artifactKey: Guid(bf82961826926ed43b331a94410c9717) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GardenTools/Saw/SawNM.png using Guid(bf82961826926ed43b331a94410c9717) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b8571b7bd09a25552ffeaf874753895') in 0.016395 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.287959 seconds.
+  path: Assets/GardenTools/Sickle/Sickle.fbx
+  artifactKey: Guid(2e6eccd0ea7515c49b62b643e222faef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GardenTools/Sickle/Sickle.fbx using Guid(2e6eccd0ea7515c49b62b643e222faef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fd0aef458a7f52ca847132b7dbb1cbf') in 0.033308 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/GardenTools/Sickle/SickleNM.png
+  artifactKey: Guid(53e6ce295aedc21438e1565e2f26d75f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GardenTools/Sickle/SickleNM.png using Guid(53e6ce295aedc21438e1565e2f26d75f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a37c4c73dd5eb12228a0ac77332ec37c') in 0.013089 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/GardenTools/Sickle/SicklePrefab.prefab
+  artifactKey: Guid(4a78a3412fcbf8a46b113062b19b4e44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GardenTools/Sickle/SicklePrefab.prefab using Guid(4a78a3412fcbf8a46b113062b19b4e44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '435f345ff4c4e9a86adc34116c54cbc0') in 0.042136 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/GardenTools/Sickle/Sickle.png
+  artifactKey: Guid(c4df83b21ba854147a7d33e3c1b29df7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GardenTools/Sickle/Sickle.png using Guid(c4df83b21ba854147a7d33e3c1b29df7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad8183926c37e31855f81513051a1ed0') in 0.013423 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.649100 seconds.
+  path: Assets/GardenTools/Watering Can/Watering Can.fbx
+  artifactKey: Guid(158f788eeb1973d45933b060a20c6a8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GardenTools/Watering Can/Watering Can.fbx using Guid(158f788eeb1973d45933b060a20c6a8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '619fef7d2cd9868f652e3f249fabfef7') in 0.024212 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/GardenTools/Watering Can/Watering CanNM.png
+  artifactKey: Guid(f5aefc0ce2845194482dbe790ff9438f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GardenTools/Watering Can/Watering CanNM.png using Guid(f5aefc0ce2845194482dbe790ff9438f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8622b0da01917c1132cbc81f7eb69f08') in 0.015937 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/GardenTools/Watering Can/Watering Can.png
+  artifactKey: Guid(56aa4fc98578eb843b953fd25770eda2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GardenTools/Watering Can/Watering Can.png using Guid(56aa4fc98578eb843b953fd25770eda2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '960f21a0811923b430edd41d891c12ae') in 0.015407 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/GardenTools/Watering Can/WateringCanPrefab.prefab
+  artifactKey: Guid(220c818457a8d2441bf84edb4edee095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GardenTools/Watering Can/WateringCanPrefab.prefab using Guid(220c818457a8d2441bf84edb4edee095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c6b516de6ea0ea8a51cda4f319e4cfa') in 0.019770 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 578.569558 seconds.
+  path: Assets/GardenTools/Shovel/Shovel.fbx
+  artifactKey: Guid(164608219c494b84f9df36c44a1cd65e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GardenTools/Shovel/Shovel.fbx using Guid(164608219c494b84f9df36c44a1cd65e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c49646e470a06ed7a9dbf32104c022d1') in 0.080030 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/GardenTools/Shovel/ShovelNM.png
+  artifactKey: Guid(4dbeebc9f55da314c8ea1a7a9a3ee7bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GardenTools/Shovel/ShovelNM.png using Guid(4dbeebc9f55da314c8ea1a7a9a3ee7bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f95c90b1701e5c7344c7270950ad49c1') in 0.036509 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/GardenTools/Shovel/ShovelPrefab.prefab
+  artifactKey: Guid(df49161344bb1984fa65e7ccd3a06653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GardenTools/Shovel/ShovelPrefab.prefab using Guid(df49161344bb1984fa65e7ccd3a06653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a41bf2869cd49d8bf2f21541b89052f') in 0.031419 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/GardenTools/Shovel/Shovel.png
+  artifactKey: Guid(b81c636de052df7408f7fd4bd1c8b12b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GardenTools/Shovel/Shovel.png using Guid(b81c636de052df7408f7fd4bd1c8b12b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a9a7b1ad2ccf93afc1d675afb0974a4') in 0.016532 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/GardenTools/Shovel/ShovelLever.png
+  artifactKey: Guid(e31f16b76fd7ae04683af2eb6d35dabe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GardenTools/Shovel/ShovelLever.png using Guid(e31f16b76fd7ae04683af2eb6d35dabe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e3b439f98d9a872829ebf5377a57b32') in 0.023936 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/GardenTools/Shovel/ShovelLeverNM.png
+  artifactKey: Guid(d499e4340ab8f044da35952af53eaca4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GardenTools/Shovel/ShovelLeverNM.png using Guid(d499e4340ab8f044da35952af53eaca4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '773bab5d93ec29e43d4a1d471cef3150') in 0.016336 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/GardenTools/Shovel/ShovelMetalic.psd
+  artifactKey: Guid(7ecdcf5dc16e2a1498fe80af82d8de37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GardenTools/Shovel/ShovelMetalic.psd using Guid(7ecdcf5dc16e2a1498fe80af82d8de37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7507bfca3faaf0e309051c64d6ee040e') in 0.019316 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 24.873217 seconds.
+  path: Assets/GardenTools/Watering Can/WateringCanPrefab.prefab
+  artifactKey: Guid(220c818457a8d2441bf84edb4edee095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GardenTools/Watering Can/WateringCanPrefab.prefab using Guid(220c818457a8d2441bf84edb4edee095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5030acc1f4281386ba9d033ff0cdc7d') in 0.037201 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 133.352643 seconds.
+  path: Assets/Alstra Infinite/Tool Set - PolyPack/Prefabs
+  artifactKey: Guid(5d7afd997a23ea24aba032f389b75823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alstra Infinite/Tool Set - PolyPack/Prefabs using Guid(5d7afd997a23ea24aba032f389b75823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dbe49de381e1ff93668a4e2e3f197f6') in 0.004437 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.062864 seconds.
+  path: Assets/Alstra Infinite/Tool Set - PolyPack/Prefabs/AxeV1.prefab
+  artifactKey: Guid(c8abccebf51185b4097c6c21f9537b03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alstra Infinite/Tool Set - PolyPack/Prefabs/AxeV1.prefab using Guid(c8abccebf51185b4097c6c21f9537b03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2b9f1d7304fe27e459b8e7efd3cd81a') in 0.035349 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Alstra Infinite/Tool Set - PolyPack/Prefabs/HammerV1.prefab
+  artifactKey: Guid(12137e5a4f0f13d45b921a301983726b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alstra Infinite/Tool Set - PolyPack/Prefabs/HammerV1.prefab using Guid(12137e5a4f0f13d45b921a301983726b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ce12252a34e391c2f8c29edb5a1dcfc') in 0.012804 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Alstra Infinite/Tool Set - PolyPack/Prefabs/HoeV1.prefab
+  artifactKey: Guid(4021f8cbbb8613842a1ab100926ddae2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alstra Infinite/Tool Set - PolyPack/Prefabs/HoeV1.prefab using Guid(4021f8cbbb8613842a1ab100926ddae2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b583f76864f6cb050e7c1b398279da1a') in 0.010682 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Alstra Infinite/Tool Set - PolyPack/Prefabs/PickAxeV1.prefab
+  artifactKey: Guid(fcdb12c0011022649b9ec1569d29917d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alstra Infinite/Tool Set - PolyPack/Prefabs/PickAxeV1.prefab using Guid(fcdb12c0011022649b9ec1569d29917d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7038bbedb7da2d7ce6d2bc62cf48020d') in 0.026523 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Alstra Infinite/Tool Set - PolyPack/Prefabs/ScytheV1.prefab
+  artifactKey: Guid(6d5c973482b67d04e8b5574a2dc815a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alstra Infinite/Tool Set - PolyPack/Prefabs/ScytheV1.prefab using Guid(6d5c973482b67d04e8b5574a2dc815a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8c92863d05fbd83a074ec1d0d12ab70') in 0.022119 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Alstra Infinite/Tool Set - PolyPack/Prefabs/SpadeV1.prefab
+  artifactKey: Guid(ebc7f9d4d8f21a145b5f8bcb031a5ab1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alstra Infinite/Tool Set - PolyPack/Prefabs/SpadeV1.prefab using Guid(ebc7f9d4d8f21a145b5f8bcb031a5ab1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e85b5c25d772b0c5b0c36e5ddd7347b9') in 0.026447 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005498 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity\GantoProject_FarmingGame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity\GantoProject_FarmingGame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.07 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.330 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1331ms)
+		BeginReloadAssembly (159ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (45ms)
+		EndReloadAssembly (1071ms)
+			LoadAssemblies (102ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (330ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (63ms)
+			SetupLoadedEditorAssemblies (509ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (94ms)
+				ProcessInitializeOnLoadAttributes (336ms)
+				ProcessInitializeOnLoadMethodAttributes (54ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.34 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3486 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (439.5 KB). Loaded Objects now: 4047.
+Memory consumption went from 152.8 MB to 152.4 MB.
+Total: 4.308300 ms (FindLiveObjects: 0.271700 ms CreateObjectMapping: 0.194200 ms MarkObjects: 3.365900 ms  DeleteObjects: 0.475400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 466.214048 seconds.
+  path: Assets/RPGPP_LT/Models/Props
+  artifactKey: Guid(c4780675555bd284c889294acc0f87d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGPP_LT/Models/Props using Guid(c4780675555bd284c889294acc0f87d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '146bd7f2635df0424254fca8c1357cb8') in 0.013281 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.929428 seconds.
+  path: Assets/Gardening_Tools_Pack_26_PBR_objects/Textures/Gardening_Tools_001_A.tga
+  artifactKey: Guid(c06f38aaa006dfa4b8002326265f74ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gardening_Tools_Pack_26_PBR_objects/Textures/Gardening_Tools_001_A.tga using Guid(c06f38aaa006dfa4b8002326265f74ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ad71b1f3413c874e9df4a25131d0d9d') in 0.057998 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Gardening_Tools_Pack_26_PBR_objects/Textures/Gardening_Tools_001_M.tga
+  artifactKey: Guid(62de89b513bfbb547b84b3af6d2eb28e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gardening_Tools_Pack_26_PBR_objects/Textures/Gardening_Tools_001_M.tga using Guid(62de89b513bfbb547b84b3af6d2eb28e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '119e4f19ca1cf87c69dac6a3b9c3d9b7') in 0.027858 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Gardening_Tools_Pack_26_PBR_objects/Textures/Gardening_Tools_001_AO.tga
+  artifactKey: Guid(99f72edfe6657d64bbdde3651992c463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gardening_Tools_Pack_26_PBR_objects/Textures/Gardening_Tools_001_AO.tga using Guid(99f72edfe6657d64bbdde3651992c463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea2a62a5d18b25b9948eb05d66ae036b') in 0.017615 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Gardening_Tools_Pack_26_PBR_objects/Textures/Gardening_Tools_001_N.tga
+  artifactKey: Guid(58f11cb2ae2ad60418a88dc45f71392b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gardening_Tools_Pack_26_PBR_objects/Textures/Gardening_Tools_001_N.tga using Guid(58f11cb2ae2ad60418a88dc45f71392b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06443f1c883d31e172335beff14bf2e7') in 0.024666 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.811657 seconds.
+  path: Assets/Gardening_Tools_Pack_26_PBR_objects/Prefabs/Axe_001.prefab
+  artifactKey: Guid(4c6dad318ef6a394c9ace62c5fd9f862) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gardening_Tools_Pack_26_PBR_objects/Prefabs/Axe_001.prefab using Guid(4c6dad318ef6a394c9ace62c5fd9f862) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '849c99348492f839246081ae3670d5ec') in 0.186594 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Gardening_Tools_Pack_26_PBR_objects/Prefabs/Hammer_003.prefab
+  artifactKey: Guid(d7060589acf206944978dac2bd5960ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gardening_Tools_Pack_26_PBR_objects/Prefabs/Hammer_003.prefab using Guid(d7060589acf206944978dac2bd5960ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd79848850064635507f05b69a040904d') in 0.038300 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Gardening_Tools_Pack_26_PBR_objects/Prefabs/Pitchfork_001.prefab
+  artifactKey: Guid(6134b32c8d8602a48b13183afaa4ef03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gardening_Tools_Pack_26_PBR_objects/Prefabs/Pitchfork_001.prefab using Guid(6134b32c8d8602a48b13183afaa4ef03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07153a7d1a26ce7f7cd84d0a42ca3304') in 0.038526 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Gardening_Tools_Pack_26_PBR_objects/Prefabs/Knife_003.prefab
+  artifactKey: Guid(74d5086e6e4dbd54f80047f266cdeb1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gardening_Tools_Pack_26_PBR_objects/Prefabs/Knife_003.prefab using Guid(74d5086e6e4dbd54f80047f266cdeb1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44ff9b22f55f97cd5fbcf4c591a1b14a') in 0.037128 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Gardening_Tools_Pack_26_PBR_objects/Prefabs/Hammer_001.prefab
+  artifactKey: Guid(d710733b140b9ff43991770305a265c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gardening_Tools_Pack_26_PBR_objects/Prefabs/Hammer_001.prefab using Guid(d710733b140b9ff43991770305a265c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a9409114c7f2d7d643ee728ad0aa52b') in 0.036499 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000136 seconds.
+  path: Assets/Gardening_Tools_Pack_26_PBR_objects/Prefabs/Pitchfork_002.prefab
+  artifactKey: Guid(1cd1442d70eeb284d861d1377f41788f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gardening_Tools_Pack_26_PBR_objects/Prefabs/Pitchfork_002.prefab using Guid(1cd1442d70eeb284d861d1377f41788f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb02927a6e4b4086bfd6c26d57c0571d') in 0.037293 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Gardening_Tools_Pack_26_PBR_objects/Prefabs/Pitchfork_003.prefab
+  artifactKey: Guid(be0d1a3d3f486c14db4d0a6115624109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gardening_Tools_Pack_26_PBR_objects/Prefabs/Pitchfork_003.prefab using Guid(be0d1a3d3f486c14db4d0a6115624109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c10f52b1d9e26086d4344b22991ec1e') in 0.039603 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Gardening_Tools_Pack_26_PBR_objects/Prefabs/Broom_002.prefab
+  artifactKey: Guid(e79181bd674f8ef43ba74f40c91b430d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gardening_Tools_Pack_26_PBR_objects/Prefabs/Broom_002.prefab using Guid(e79181bd674f8ef43ba74f40c91b430d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1615af0e7e70561250131f4c94524d97') in 0.037802 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Gardening_Tools_Pack_26_PBR_objects/Prefabs/Scythe_001.prefab
+  artifactKey: Guid(ee5820ed07d85634a8e3ce390f32301e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gardening_Tools_Pack_26_PBR_objects/Prefabs/Scythe_001.prefab using Guid(ee5820ed07d85634a8e3ce390f32301e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '934c3b28c7cc2fe065626d68464e47d0') in 0.039281 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Gardening_Tools_Pack_26_PBR_objects/Prefabs/Shovel_002.prefab
+  artifactKey: Guid(c75b44d2c6ac36248a731b758697fe7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gardening_Tools_Pack_26_PBR_objects/Prefabs/Shovel_002.prefab using Guid(c75b44d2c6ac36248a731b758697fe7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18699df1bb58c174791c9257f38e2935') in 0.037484 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Gardening_Tools_Pack_26_PBR_objects/Prefabs/Knife_002.prefab
+  artifactKey: Guid(9768cced4db1b9048bfc47898736275f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gardening_Tools_Pack_26_PBR_objects/Prefabs/Knife_002.prefab using Guid(9768cced4db1b9048bfc47898736275f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '995c1cfe4a4b7e9f7d8cea4c10972698') in 0.037017 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Gardening_Tools_Pack_26_PBR_objects/Prefabs/Knife_001.prefab
+  artifactKey: Guid(999ff89a4173f3949b5d3f73b2fbf69b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gardening_Tools_Pack_26_PBR_objects/Prefabs/Knife_001.prefab using Guid(999ff89a4173f3949b5d3f73b2fbf69b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba58e1690c9e7c026b0462e921cd21be') in 0.034745 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Gardening_Tools_Pack_26_PBR_objects/Prefabs/Hammer_002.prefab
+  artifactKey: Guid(50d2325f9a9428c4b9b6ff2580380f0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gardening_Tools_Pack_26_PBR_objects/Prefabs/Hammer_002.prefab using Guid(50d2325f9a9428c4b9b6ff2580380f0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc34bff34bac93d2b309530cbe04bdb6') in 0.036138 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Gardening_Tools_Pack_26_PBR_objects/Prefabs/Rake_002.prefab
+  artifactKey: Guid(77c8fdf6626977a4ab4348da8ff99e85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gardening_Tools_Pack_26_PBR_objects/Prefabs/Rake_002.prefab using Guid(77c8fdf6626977a4ab4348da8ff99e85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e7ec5d6275a859f5f9a5fdd7f1b0655') in 0.034532 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Gardening_Tools_Pack_26_PBR_objects/Prefabs/Broom_003.prefab
+  artifactKey: Guid(768db5bd5277a7d47ac7c8104daf6822) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gardening_Tools_Pack_26_PBR_objects/Prefabs/Broom_003.prefab using Guid(768db5bd5277a7d47ac7c8104daf6822) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '957cbd34059fc250293c85fa5db5ff97') in 0.033660 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Gardening_Tools_Pack_26_PBR_objects/Prefabs/Sickle_001.prefab
+  artifactKey: Guid(2848a0806986778408b04c54197ae691) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gardening_Tools_Pack_26_PBR_objects/Prefabs/Sickle_001.prefab using Guid(2848a0806986778408b04c54197ae691) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66d172e71c6c13a05d94dab2439b9fc2') in 0.035361 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Gardening_Tools_Pack_26_PBR_objects/Prefabs/Saw_001.prefab
+  artifactKey: Guid(63307f04157b40242a47bf0bede7ddd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gardening_Tools_Pack_26_PBR_objects/Prefabs/Saw_001.prefab using Guid(63307f04157b40242a47bf0bede7ddd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '615d927f254abc1337c7cbab447066b5') in 0.037513 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Gardening_Tools_Pack_26_PBR_objects/Prefabs/Shovel_001.prefab
+  artifactKey: Guid(cf2a1b730c7addd4c87feed027d52d08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gardening_Tools_Pack_26_PBR_objects/Prefabs/Shovel_001.prefab using Guid(cf2a1b730c7addd4c87feed027d52d08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '554576eef9a946e2918146fbd583a989') in 0.036800 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Gardening_Tools_Pack_26_PBR_objects/Prefabs/Broom_001.prefab
+  artifactKey: Guid(38d1f175409165443ba83b93603c8f6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gardening_Tools_Pack_26_PBR_objects/Prefabs/Broom_001.prefab using Guid(38d1f175409165443ba83b93603c8f6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '366975ea8baa27b5c039ca18c5976f52') in 0.037251 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Gardening_Tools_Pack_26_PBR_objects/Prefabs/Pincers_001.prefab
+  artifactKey: Guid(80d6e572a19ba0f4fb7fb5d8b3777330) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gardening_Tools_Pack_26_PBR_objects/Prefabs/Pincers_001.prefab using Guid(80d6e572a19ba0f4fb7fb5d8b3777330) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18ec48fbf4bccff5d910a17e95b110aa') in 0.035745 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Gardening_Tools_Pack_26_PBR_objects/Prefabs/Scythe_002.prefab
+  artifactKey: Guid(cb17b5b6f8034f646826c418dc60cad4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gardening_Tools_Pack_26_PBR_objects/Prefabs/Scythe_002.prefab using Guid(cb17b5b6f8034f646826c418dc60cad4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b951c21749b15c61de20ff6cefc6c7b5') in 0.035513 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Gardening_Tools_Pack_26_PBR_objects/Prefabs/Axe_002.prefab
+  artifactKey: Guid(f5be236085efc2842b05013f43a80bef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gardening_Tools_Pack_26_PBR_objects/Prefabs/Axe_002.prefab using Guid(f5be236085efc2842b05013f43a80bef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85385d974c3bde340c7c3d3d88015c34') in 0.036719 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Gardening_Tools_Pack_26_PBR_objects/Prefabs/Saw_002.prefab
+  artifactKey: Guid(4b64461be95c6274a9acc5530e04b288) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gardening_Tools_Pack_26_PBR_objects/Prefabs/Saw_002.prefab using Guid(4b64461be95c6274a9acc5530e04b288) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb5e8a39c9760079c372ec7d3c4e5f5c') in 0.035282 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Gardening_Tools_Pack_26_PBR_objects/Prefabs/Rake_001.prefab
+  artifactKey: Guid(a4fcb00a70cc5464388dd8b7e5f16df0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gardening_Tools_Pack_26_PBR_objects/Prefabs/Rake_001.prefab using Guid(a4fcb00a70cc5464388dd8b7e5f16df0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6cce5fe60d512adce72c49abd5c62b2') in 0.035822 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Gardening_Tools_Pack_26_PBR_objects/Prefabs/Rake_003.prefab
+  artifactKey: Guid(acad44298735e3847a543fc3d0d2bd0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gardening_Tools_Pack_26_PBR_objects/Prefabs/Rake_003.prefab using Guid(acad44298735e3847a543fc3d0d2bd0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a24149b24db3c530a5812ebf797d6cf') in 0.034145 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Gardening_Tools_Pack_26_PBR_objects/Prefabs/Shovel_003.prefab
+  artifactKey: Guid(b935d8de81c259742861dcba19d2f33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gardening_Tools_Pack_26_PBR_objects/Prefabs/Shovel_003.prefab using Guid(b935d8de81c259742861dcba19d2f33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1ad1de5d44934d9e2f3fcaf810fff0f') in 0.035846 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005284 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity\GantoProject_FarmingGame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity\GantoProject_FarmingGame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.79 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.427 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1428ms)
+		BeginReloadAssembly (162ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (39ms)
+		EndReloadAssembly (1161ms)
+			LoadAssemblies (122ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (409ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (69ms)
+			SetupLoadedEditorAssemblies (503ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (20ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (95ms)
+				ProcessInitializeOnLoadAttributes (334ms)
+				ProcessInitializeOnLoadMethodAttributes (48ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.23 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3486 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (439.5 KB). Loaded Objects now: 4050.
+Memory consumption went from 153.0 MB to 152.5 MB.
+Total: 3.926300 ms (FindLiveObjects: 0.305300 ms CreateObjectMapping: 0.319200 ms MarkObjects: 3.004400 ms  DeleteObjects: 0.296200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005552 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity\GantoProject_FarmingGame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity\GantoProject_FarmingGame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.90 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.447 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1449ms)
+		BeginReloadAssembly (151ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (36ms)
+		EndReloadAssembly (1148ms)
+			LoadAssemblies (113ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (394ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (60ms)
+			SetupLoadedEditorAssemblies (510ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (122ms)
+				ProcessInitializeOnLoadAttributes (321ms)
+				ProcessInitializeOnLoadMethodAttributes (43ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.07 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3486 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (431.7 KB). Loaded Objects now: 4053.
+Memory consumption went from 153.0 MB to 152.5 MB.
+Total: 5.475800 ms (FindLiveObjects: 0.454500 ms CreateObjectMapping: 0.349700 ms MarkObjects: 3.624700 ms  DeleteObjects: 1.045800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1353.350095 seconds.
+  path: Assets/MyAnimations
+  artifactKey: Guid(d6e32245dfece9145a08778ac9cd227e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyAnimations using Guid(d6e32245dfece9145a08778ac9cd227e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbd8fba31e354d0c00902d8c2d98348e') in 0.012135 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.092666 seconds.
+  path: Assets/MyAnimations/hoe.fbx
+  artifactKey: Guid(72e19e33381f804409e023a22c3a3772) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyAnimations/hoe.fbx using Guid(72e19e33381f804409e023a22c3a3772) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '692794bff31f9b0f8c2a96609cd16797') in 0.156984 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 124.991208 seconds.
+  path: Assets/MyAnimations/hoe.fbx
+  artifactKey: Guid(72e19e33381f804409e023a22c3a3772) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyAnimations/hoe.fbx using Guid(72e19e33381f804409e023a22c3a3772) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42ff03cd1d5191199c048cea61caae8d') in 0.040921 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 231.312206 seconds.
+  path: Assets/MyAnimations/hoe.fbx
+  artifactKey: Guid(72e19e33381f804409e023a22c3a3772) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyAnimations/hoe.fbx using Guid(72e19e33381f804409e023a22c3a3772) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a48b8fb81b661211ece43e4b7ad47e9') in 0.046322 seconds 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 4.28 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (436.9 KB). Loaded Objects now: 4054.
+Memory consumption went from 83.9 MB to 83.5 MB.
+Total: 3.673300 ms (FindLiveObjects: 0.256700 ms CreateObjectMapping: 0.161700 ms MarkObjects: 2.977600 ms  DeleteObjects: 0.276500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 318.563679 seconds.
+  path: Assets/Standard Assets/Cameras
+  artifactKey: Guid(604bd9e7358cf48c0969f5b515a8c51c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Cameras using Guid(604bd9e7358cf48c0969f5b515a8c51c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9554f53f0d4b63a6d40896f7ba72726') in 0.005190 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.332917 seconds.
+  path: Assets/Standard Assets/Characters/FirstPersonCharacter/Prefabs/FPSController.prefab
+  artifactKey: Guid(5e9e851c0e142814dac026a256ba2ac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Characters/FirstPersonCharacter/Prefabs/FPSController.prefab using Guid(5e9e851c0e142814dac026a256ba2ac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67379dfc1339381dc271b8d663d68e39') in 0.012079 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Standard Assets/Characters/FirstPersonCharacter/Prefabs/RigidBodyFPSController.prefab
+  artifactKey: Guid(c6453f8e1f814744d8b94e5a6d1f9942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Characters/FirstPersonCharacter/Prefabs/RigidBodyFPSController.prefab using Guid(c6453f8e1f814744d8b94e5a6d1f9942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '441931572586899f7dde1a8308efe269') in 0.008775 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005546 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity\GantoProject_FarmingGame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity\GantoProject_FarmingGame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.66 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.247 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1248ms)
+		BeginReloadAssembly (167ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (44ms)
+		EndReloadAssembly (976ms)
+			LoadAssemblies (111ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (334ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (62ms)
+			SetupLoadedEditorAssemblies (426ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (85ms)
+				ProcessInitializeOnLoadAttributes (275ms)
+				ProcessInitializeOnLoadMethodAttributes (43ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.19 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3486 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (439.6 KB). Loaded Objects now: 4056.
+Memory consumption went from 153.0 MB to 152.6 MB.
+Total: 3.388300 ms (FindLiveObjects: 0.352900 ms CreateObjectMapping: 0.212100 ms MarkObjects: 2.510100 ms  DeleteObjects: 0.312100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005313 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity\GantoProject_FarmingGame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity\GantoProject_FarmingGame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.86 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.310 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1311ms)
+		BeginReloadAssembly (154ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (36ms)
+		EndReloadAssembly (1051ms)
+			LoadAssemblies (105ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (353ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (56ms)
+			SetupLoadedEditorAssemblies (471ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (19ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (87ms)
+				ProcessInitializeOnLoadAttributes (315ms)
+				ProcessInitializeOnLoadMethodAttributes (43ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 7.78 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3486 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (439.8 KB). Loaded Objects now: 4059.
+Memory consumption went from 153.0 MB to 152.6 MB.
+Total: 3.929100 ms (FindLiveObjects: 0.418700 ms CreateObjectMapping: 0.324100 ms MarkObjects: 2.843100 ms  DeleteObjects: 0.341600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 4.33 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (437.1 KB). Loaded Objects now: 4059.
+Memory consumption went from 83.7 MB to 83.3 MB.
+Total: 3.276700 ms (FindLiveObjects: 0.290800 ms CreateObjectMapping: 0.157800 ms MarkObjects: 2.487400 ms  DeleteObjects: 0.340100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005746 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity\GantoProject_FarmingGame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity\GantoProject_FarmingGame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.65 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.170 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1171ms)
+		BeginReloadAssembly (163ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (37ms)
+		EndReloadAssembly (901ms)
+			LoadAssemblies (111ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (328ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (391ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (90ms)
+				ProcessInitializeOnLoadAttributes (250ms)
+				ProcessInitializeOnLoadMethodAttributes (32ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.86 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3487 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (439.5 KB). Loaded Objects now: 4063.
+Memory consumption went from 153.1 MB to 152.6 MB.
+Total: 3.614200 ms (FindLiveObjects: 0.406200 ms CreateObjectMapping: 0.159100 ms MarkObjects: 2.751300 ms  DeleteObjects: 0.296700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005997 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity\GantoProject_FarmingGame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity\GantoProject_FarmingGame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.00 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.381 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2382ms)
+		BeginReloadAssembly (169ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (44ms)
+		EndReloadAssembly (1999ms)
+			LoadAssemblies (216ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (693ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (90ms)
+			SetupLoadedEditorAssemblies (869ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (25ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (130ms)
+				ProcessInitializeOnLoadAttributes (642ms)
+				ProcessInitializeOnLoadMethodAttributes (62ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (18ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.68 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3487 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (439.5 KB). Loaded Objects now: 4066.
+Memory consumption went from 153.1 MB to 152.6 MB.
+Total: 16.443900 ms (FindLiveObjects: 8.021000 ms CreateObjectMapping: 0.525600 ms MarkObjects: 6.883100 ms  DeleteObjects: 1.013100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 812.245467 seconds.
+  path: Assets/Hoe.cs
+  artifactKey: Guid(c6098945d5c7b2a4ea1f5b34cd565397) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hoe.cs using Guid(c6098945d5c7b2a4ea1f5b34cd565397) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '612b526491346511170aaf4193e56173') in 0.054949 seconds 
