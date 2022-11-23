@@ -45,7 +45,10 @@
      <Compile Include="Assets\moveController.cs" />
      <Compile Include="Assets\SampleScenes\Menu\Scripts\PauseMenu.cs" />
      <Compile Include="Assets\SampleScenes\Scripts\PlaceTargetWithMouse.cs" />
+     <Compile Include="Assets\moveItem.cs" />
      <None Include="Assets\SampleScenes\Shaders\Skybox-Procedural.shader" />
+     <None Include="Assets\craftpix-891167-free-farming-crops-3d-low-poly-models\License.txt" />
+     <None Include="Assets\craftpix-891167-free-farming-crops-3d-low-poly-models\readme.txt" />
     <Reference Include="UnityEngine">
         <HintPath>D:\Unity\2021.3.10f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
