@@ -9,11 +9,15 @@ public class moveController : MonoBehaviour
     Vector3 initialBedPosition;
     Vector3 currentPosition;
     Vector3 currentBedPosition;
+    Vector3 initialCropPosition;
+    Vector3 currentCropPosition;
     public GameObject[] ToolPrefabs;
     public GameObject[] BedPrefabs;
     public GameObject[] CreatedBeds;
     public GameObject UsedItem;
     public GameObject Bed;
+    public GameObject Crop;
+    public GameObject[] CreatedCrops;
     public float shift;
     int countOfSteps;
     public int numberOfActions;
@@ -26,19 +30,23 @@ public class moveController : MonoBehaviour
     float offsetBed;
     private int prefabIndex;
     private int createdBedsIndex;
+    bool cropsIsPlanted;
     private void Start()
     {
         timerOn = false;
         flagOfStep = false;
+        cropsIsPlanted = true;
         actionTime = 3.5f;
         timeLeft = actionTime;
         initialPosition = transform.position;
         currentPosition = initialPosition;
         initialBedPosition = new Vector3(initialPosition.x - 3.5f, initialPosition.y - 2.41f, initialPosition.z);
+        initialCropPosition = new Vector3(initialPosition.x - 2.05f, initialPosition.y - 2.23f, initialPosition.z);
         countOfSteps = 0;
         countOfStages = 0;
         numberOfStages = 6;
         CreatedBeds = new GameObject[30];
+        CreatedCrops = new GameObject[10];
         offsetBed = 0.695f;
         CreateBed();
         UsedItem = Instantiate(ToolPrefabs[countOfStages], new Vector3(initialPosition.x - 2.9f, initialPosition.y - 1.38f, initialPosition.z), Quaternion.identity) as GameObject;
@@ -57,12 +65,47 @@ public class moveController : MonoBehaviour
                 flagOfStep = true;
             }
         }
-
-        if (Input.GetKeyDown(KeyCode.R) && countOfStages < numberOfStages)
+        if (countOfStages == 5 && cropsIsPlanted)
         {
-            timerOn = true;
-            UsedItem.GetComponentInChildren<Item>().Interaction();
+            CreateCrops();
+            cropsIsPlanted=false;
         }
+        if (countOfStages < numberOfStages)
+        {
+            if (Input.GetKeyDown(KeyCode.Q) && countOfStages==0)
+            {
+                timerOn = true;
+                UsedItem.GetComponentInChildren<Item>().Interaction();
+            }
+            if (Input.GetKeyDown(KeyCode.W) && countOfStages==1)
+            {
+                timerOn = true;
+                UsedItem.GetComponentInChildren<Item>().Interaction();
+            }
+            if (Input.GetKeyDown(KeyCode.E) && countOfStages==2)
+            {
+                timerOn = true;
+                UsedItem.GetComponentInChildren<Item>().Interaction();
+            }
+            if (Input.GetKeyDown(KeyCode.R) && countOfStages==3)
+            {
+                timerOn = true;
+                UsedItem.GetComponentInChildren<Item>().Interaction();
+            }
+            if (Input.GetKeyDown(KeyCode.T) && countOfStages==4)
+            {
+                timerOn = true;
+                UsedItem.GetComponentInChildren<Item>().Interaction();
+            }
+            if (Input.GetKeyDown(KeyCode.Y) && countOfStages==5)
+            {
+                timerOn = true;
+                UsedItem.GetComponent<Item>().Interaction();
+                Invoke("HarvestCrop", 3.0f);
+            }
+        }
+
+
 
         if (!timerOn && flagOfStep)
         {
@@ -146,6 +189,19 @@ public class moveController : MonoBehaviour
         rot = CreatedBeds[createdBedsIndex].transform.rotation;
         Destroy(CreatedBeds[createdBedsIndex]);
         CreatedBeds[createdBedsIndex] = Instantiate(BedPrefabs[prefabIndex], pos, rot) as GameObject;
+    }
+    public void CreateCrops()
+    {
+        currentCropPosition=initialCropPosition;
+        for(int i =0;i<10;i++)
+        {
+            CreatedCrops[i]= Instantiate(Crop, currentCropPosition, Crop.transform.rotation) as GameObject;
+            currentCropPosition.z+=offsetBed;
+        }
+    }
+    public void HarvestCrop()
+    {
+        Destroy(CreatedCrops[countOfSteps]);
     }
     public void CreateBed()
     {
