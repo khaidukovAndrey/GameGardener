@@ -18,21 +18,25 @@ public class Item : MonoBehaviour
     {
         if (type == ItemType.WateringCan)
         {
+            GetComponentInParent<AudioSource>().Play();
             Invoke("SuspendingExecutionWCan", 0);
-            Invoke("SuspendingExecutionWCan", 3.0f);
+            Invoke("SuspendingExecutionWCan", 2.9f);
         }
         else if (type == ItemType.Seeds)
         {
+            GetComponentInParent<AudioSource>().Play();
             Invoke("SuspendingExecutionSeeds", 0);
-            Invoke("SuspendingExecutionSeeds", 3.0f);
+            Invoke("SuspendingExecutionSeeds", 2.9f);
         }
         else if (type == ItemType.None)
         {
+            GetComponent<AudioSource>().Play();
         }
         else
         {
+            GetComponentInParent<AudioSource>().Play();
             Invoke("SuspendingExecution", 0);
-            Invoke("SuspendingExecution", 3.0f);
+            Invoke("SuspendingExecution", 2.9f);
         }
 
     }
