@@ -42,7 +42,7 @@ public class moveController : MonoBehaviour
         currentPosition = initialPosition;
 
         countOfSteps = 0;
-        countOfStages = 0;
+        countOfStages = 1;
         numberOfStages = 6;
 
         offsetBed = 0.695f;
